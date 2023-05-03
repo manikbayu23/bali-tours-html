@@ -1,0 +1,605 @@
+.pembelian {
+    background-color: white;
+    margin: 15px 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: absolute;
+    top: 300px;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    transform: translate(-10%, -25%);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.bintang {
+    color: rgb(255, 233, 36);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.bintang i {
+    margin: 2px;
+}
+
+.transparan {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 50%;
+}
+
+.gambar-1 {
+    border-radius: 10px;
+}
+
+.formulir-pembelian {
+    display: flex;
+}
+
+.judul {
+    padding: 0px 0px 0px 20px;
+}
+
+.tombol1 {
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.tombol {
+    display: none;
+}
+
+.bt-list {
+    margin-right: 20px;
+    border: 2px solid rgb(58, 127, 255);
+    background-color: transparent;
+    padding: 15px 30px;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(58, 127, 255);
+    font-weight: 600;
+    transition: all 400ms;
+}
+
+
+.bt-list:hover {
+    background-color: rgb(58, 127, 255);
+    color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bt-pesan {
+    margin-right: 20px;
+    border: 2px solid rgb(49, 187, 36);
+    background-color: rgb(49, 187, 36);
+    padding: 15px 30px;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    transition: all 400ms;
+}
+
+.bt-pesan:hover {
+    background-color: rgb(31, 112, 24);
+    border: 2px solid rgb(31, 112, 24);
+    color: rgb(226, 226, 226);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#jumlah-pesanan {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
+.tanggal input[type="text"],
+.tanggal input[type="number"],
+.tanggal input[type="date"] {
+    width: 200px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-pesan {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+
+}
+
+.foto {
+    background-image: url(../images/bg-8.jpg);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.form-tanggal {
+    float: left;
+    width: 50%;
+}
+
+.flext {
+    width: 100%;
+    justify-content: end;
+    justify-items: end;
+}
+
+.pesanan-jumlah {
+    width: 50%;
+    justify-content: end;
+    justify-items: end;
+
+}
+
+.form-pesanan {
+    float: right;
+    width: 50%;
+}
+
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+
+}
+
+.modal-content h3 {
+    font-size: 24px;
+
+}
+
+
+.dalam-form {
+    display: flex;
+}
+
+.modal-form {
+    display: flex;
+}
+
+.dalam-form-isi {
+    margin: auto;
+}
+
+.modal-content img {
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 10px;
+    width: 250px;
+} */
+
+.accordion-top {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+
+.bt-arcodion {
+    color: rgb(82, 145, 240);
+    font-weight: 600;
+}
+
+.bt-arcodion:hover {
+    color: rgb(19, 80, 172);
+}
+
+.deskripsi {
+    background-color: white;
+    margin: 200px 25px 15px 25px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* deskripsi */
+
+.container-2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.isi-deskripsi {
+    width: 100%;
+    display: block;
+    text-align: justify;
+
+}
+
+.deskripsi {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 19, 19);
+}
+
+.isi-deskripsi li {
+    font-weight: 400;
+}
+
+.carousel-item img {
+    height: 300px;
+
+}
+
+.baris {
+    display: flex;
+    margin-top: 20px
+}
+
+.text2 {
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+
+}
+
+.gambar img {
+    width: 500px;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 10px;
+
+}
+
+.gambar2 img {
+    width: 500px;
+    float: left;
+    padding-right: 20px;
+
+}
+
+.text {
+    float: right;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+.nama-paket {
+    border: none;
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 912px) {
+    .pembelian {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 5px;
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translate(0%);
+        border-radius: 0;
+    }
+
+    .pesanan-jumlah {
+        width: 100%;
+
+
+    }
+
+    .formulir-pembelian {
+        margin-top: 10px;
+        display: block;
+
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .judul {
+        padding: 0;
+    }
+
+    .flext {
+        margin-right: 0;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .carousel-item img {
+        height: 200px;
+
+    }
+
+
+
+    .form-pesan {
+        margin: auto;
+        padding: 0;
+        display: block;
+
+    }
+
+    .foto {
+        height: 200px;
+
+    }
+
+
+    #jumlah-pesanan {
+        display: inline-block;
+        width: 65%;
+        text-align: center;
+    }
+
+    .tanggal input[type="text"],
+    .tanggal input[type="number"],
+    .tanggal input[type="date"] {
+        width: 96%;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+
+
+    .tombol1 {
+        display: none;
+    }
+
+    .tombol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        background-color: white;
+        padding: 10px 0 16px 0;
+        border-top: 1px solid rgb(209, 209, 209);
+    }
+
+    .tombol button {
+        margin: 0 5px;
+        padding: 10px;
+    }
+
+    .bt-list {
+        border: 2px solid rgb(58, 127, 255);
+        background-color: transparent;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: rgb(58, 127, 255);
+        font-weight: 600;
+        font-size: 12px;
+        transition: all 400ms;
+    }
+
+
+
+    .gambar-1 {
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    .bt-pesan {
+        border: 2px solid rgb(49, 187, 36);
+        background-color: rgb(49, 187, 36);
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: white;
+        font-weight: 600;
+        transition: all 400ms;
+        font-size: 12px;
+    }
+
+    img {
+        text-align: center;
+    }
+
+    /* .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    } */
+
+    /* modal css */
+    /* .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 90%;
+        -webkit-animation-name: animatetop;
+        animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
+
+    } */
+
+    /* .modal-content h3 {
+        font-size: 16px;
+
+    }
+
+
+    .dalam-form {
+        display: flex;
+    }
+
+    .modal-form {
+        display: flex;
+    } */
+
+    .dalam-form-isi {
+        margin: auto;
+    }
+
+    .isi-form {
+        float: right;
+        margin-left: 5px;
+    }
+
+    .isi-form p {
+        font-size: 12px;
+    }
+
+    .modal-content img {
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .container-2 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        height: auto;
+        display: block;
+
+    }
+
+    .isi-deskripsi {
+        width: 100%;
+        text-align: left;
+        display: block;
+
+    }
+
+    .isi-deskripsi li {
+        font-weight: 400;
+        font-size: small;
+
+    }
+
+    .deskripsi p {
+        font-size: small;
+    }
+
+    .baris {
+        display: block;
+        margin-top: 20px
+    }
+
+    .text2 {
+        float: left;
+        width: 100%;
+        margin-right: 20px;
+
+    }
+
+    .gambar img {
+        width: 500px;
+        float: right;
+        margin-left: auto;
+        margin-bottom: 10px;
+
+    }
+
+    .gambar2 img {
+        width: 500px;
+        float: left;
+        padding-right: 20px;
+
+    }
+
+    .bt-plus-min {
+        display: none;
+    }
+
+    .text {
+        float: right;
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .deskripsi {
+
+        margin: 15px 0;
+    }
+
+}

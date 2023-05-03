@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mutiara Bali Tours|Detail Paket</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"> <img src="images/logo-travel.png" width="150x" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="paket-tour.html" class="nav-link">Paket Tour</a></li>
+          <li class="nav-item"><a href="sewa-mobil.html" class="nav-link">Sewa Mobil</a></li>
+          <li class="nav-item"><a href="artikel.html" class="nav-link">Artikel</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg-8.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+        <div class="col-md-9 ftco-animate pb-5 text-center">
+          <h1 class="mb-0 bread">Paket Tour Bali 2 Hari 1 Malam</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pembelian">
+    <div class="container " style="padding: 20px 0;">
+      <div class="col-md 8">
+        <div class="formulir-pembelian">
+          <div width="450px">
+            <img class="img-fluid" src="images/tanah-lot.jpg" width="450px" alt="">
+          </div>
+          <div class="judul">
+            <h3 style="margin-bottom: 5px;">Paket Tour Bali 2 Hari 1 Malam</h3>
+            <p style="margin-bottom: 10px;"><i class="fa fa-map-marker"></i> Bali <i style="margin-left: 20px;"
+                class="fa fa-clock-o"></i> 4 Hari 3
+              Malam</p>
+            <h4 style="margin-bottom: 5px; margin-left:10px"><b>Rp 300.000</b></h4>
+            <div class="pemesanan">
+              <form id="formPemesanan">
+                <div class="form-pesan">
+                  <div class="flext">
+                    <label for="tanggal">Tanggal Perjalanan</label><br>
+                    <input type="date" id="tanggal" name="tanggal">
+                  </div>
+
+                  <!-- Form input jumlah pesanan -->
+                  <div class="flext">
+                    <label for="jumlah-pesanan">Jumlah Peserta</label><br>
+                    <button class="btn btn-primary bt-plus-min" type="button" id="btn-min">-</button>
+                    <input type="number" id="jumlah-pesanan" name="jumlah-pesanan" value="1">
+                    <button type="button" class="btn btn-primary bt-plus-min" id="btn-plus">+</button><br>
+                  </div>
+                </div>
+                <div class="tombol">
+                  <button class="btn btn-primary bt-list" type="submit" id="myBtn" onclick="tampilkanModal()">Daftar
+                    Harga</button>
+
+                  <a href="https://api.whatsapp.com/send?phone=6281338422762&amp;text=Halo,%20customer%20service%20Mutiara Holiday..."
+                    target="blank" title="Klik untuk chat via Whatsapp" class="btn btn-success bt-pesan"><i
+                      class=" fa fa-whatsapp"></i>
+                    Pesan Sekarang</a>
+                </div>
+              </form>
+
+              <div id="modalPemesanan" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <form>
+                    <h2><b>Pesan Paket Tour</b></h2>
+                    <div class="dalam-form">
+                      <div width="200px">
+                        <img src="images/tanah-lot.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="isi-form">
+                        <h3><b> Paket Tour Bali 2 Hari 1 Malam</b></h3>
+                        <p style="margin-top: 10px;">Total Harga : </p>
+                        <h3><b> Rp 300.000</b></h3>
+                      </div>
+                    </div>
+
+                    <div class="modal-form">
+                      <div class="dalam-form-isi">
+                        <label for="tanggal_modal">Tanggal Perjalanan:</label><br>
+                        <input class="form-control" type="date" id="tanggal_modal" name="tanggal_modal">
+                      </div>
+                      <div class="dalam-form-isi">
+                        <label for="jumlah_modal">Jumlah Peserta:</label><br>
+                        <input class="form-control" type="number" id="jumlah_modal" name="jumlah_modal">
+                      </div>
+                    </div>
+
+                    <div style="margin: 20px 0;">
+                      <label for="hotel-rating">Pilih Hotel</label><br>
+                      <select class="form-control" id="hotel-rating" name="hotel-rating">
+                        <option selected>--Pilih Hotel--</option>
+                        <optgroup label="Hotel Bintang 1">
+                          <option value="1">Hotel Murah Meriah</option>
+                          <option value="1">Hotel Sederhana</option>
+                        </optgroup>
+                        <optgroup label="Hotel Bintang 2">
+                          <option value="2">Hotel Bersih dan Nyaman</option>
+                          <option value="2">Hotel Kecil dengan Fasilitas Lengkap</option>
+                        </optgroup>
+                        <optgroup label="Hotel Bintang 3">
+                          <option value="3">Hotel Bintang 3 dengan Harga Terjangkau</option>
+                          <option value="3">Hotel Mewah dengan Fasilitas Lengkap</option>
+                        </optgroup>
+                        <optgroup label="Hotel Bintang 4">
+                          <option value="4">Hotel Bintang 4 dengan Harga Terjangkau</option>
+                          <option value="4">Hotel Mewah dengan Fasilitas Lengkap</option>
+                        </optgroup>
+                        <optgroup label="Hotel Bintang 5">
+                          <option value="4">Hotel Bintang 4 dengan Harga Terjangkau</option>
+                          <option value="4">Hotel Mewah dengan Fasilitas Lengkap</option>
+                        </optgroup>
+                    </div>
+
+                    <input type="button" style="text-align: center; margin-top:20px" value="Buat Pesanan"
+                      class="btn btn-primary btn-lg btn-block">
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="container container-2">
+      <div class="col-md-12 isi-deskripsi">
+        <p><b> Sedang mencari Paket Tour Bali 2 Hari 1 Malam
+            untuk
+            aktifitas liburan Anda yang pendek?</b><br>
+          Tenang, Anda masih bisa menikmati berbagai destinasi menarik di Bali, Kuliner lezat, dan berbagai spot
+          wisata yang instagramable yang bisa Anda tunjukkan ke teman-teman di kantor atau teman lainnya.
+          Paket Tour Bali 2 Hari 1 Malam ini kami kemas dengan harga special dan manarik. Paket tour ini kami
+          dirancang untuk Anda bekerjasama dengan local operator yang berpengalaman, sehingga kami dapat
+          memberikan
+          pengalaman liburan Anda di Bali yang murah dan menyenangkan.</p>
+
+        <div class="baris">
+          <div class="text2">
+            <h4 style="margin-bottom: 20px;"><i class="fa fa-calendar"></i><b> Sususan Acara / Jadwal Tour</b>
+            </h4>
+            <h5><b>Hari 1 Istirahat</b></h5>
+            <p>Pada hari pertama anda akan diajak ke hotel di hotel dan akan dapat menikmati acara bebas yang
+              menyenangkan, sambil menikmati
+              waktu istirahat yang layak. Kami menawarkan banyak pilihan acara bebas yang akan membuat Anda merasa
+              santai dan segar, seperti permainan, kegiatan rekreasi, dan kegiatan sosial lainnya.</p>
+            <h5><b>Hari 2 Tari Barong & Kintamani (Opsi Pertama)</b></h5>
+            <p>Setelah makan pagi di hotel Guide akan menjemput di lobby hotel untuk selanjutnya diantar untuk
+              menonton
+              Tari Barong di Desa Batu Bulan selama satu jam. Usai menonton tari Barong dilanjutkan dengan
+              mengunjungi
+              Cooffee plantation atau Kebun kop, disana kebun menyediakan pemandangan yang indah dan aktivitas
+              yang
+              menyenangkan seperti tur kebun kopi atau pengalaman menanam kopi sendiri. Makan Siang dilaksanakan
+              di
+              Kintamani sambil menikmati keindahan panorama Gunung dan Danau Batur. Perjalanan berikutnya adalah
+              mengunjungi salah satu pura yaitu Pura Tirta Empul di Desa Tampak Siring, yang mana di desa ini juga
+              terdapat Istana Presiden yaitu Istana Tampak Siring. Kunjungan terakhir adalah belanja oleh-oleh di
+              Desa
+              Sukawati sampai jam keberangkatan menuju ke airport.</p>
+          </div>
+          <div class="gambar" width="500px">
+            <img class="img-fluid" src="images/barong.jpg" width="500px" alt="">
+            <img class="img-fluid" src="images/gunung-batur.jpg" width="500px" alt="">
+          </div>
+        </div>
+        <div class="baris">
+          <div width=" 600px">
+            <img class="img-fluid" src="images/bedugul.jpg" width="600px" alt="">
+          </div>
+          <div class="text">
+            <h5><b>Hari 2 Bedugul & Tanah Lot Tour (Opsi Kedua)</b></h5>
+            <p>Setelah makan pagi di hotel. Acara diawali dengan mengunjungi Pura Taman Ayun di Desa Mengwi yang
+              merupakan Pura peninggalan kerajaan Mengwi pada abad ke-19. Selanjutnya Mengunjungi kawasan
+              pegunungan
+              Bedugul dengan Danau Bratannya yang indah. Makan siang di local restaurant yang telah ditentukan.
+              Usai
+              makan siang, acara dilanjutkan dengan mengunjungi Wanara Wana yang merupakan tempat bermukimnya
+              ratusan
+              kera dan kelelawar besar. Setelah dari Wanara Wana, kunjungan terakhir adalah mampir di pusat
+              oleh-oleh
+              Bali di mana disini dijual berbagai macam oleh-oleh khas Bali, sampai jam keberangkatan menuju ke
+              airport.
+            </p>
+          </div>
+        </div>
+        <div class="baris">
+          <div class="text2">
+            <h5><b>Hari 2 Nusa Dua & Uluwatu Tour (Opsi Ketiga)</b></h5>
+            <p>Setelah makan pagi di hotel, guide akan menjemput Anda untuk diajak jalan-jalan di pantai Tanjung
+              Benoa
+              dan menikmati pemandangan laut lepas. Bagi yang suka tantangan olahraga laut, dapat menikmati
+              aktivitas
+              water sport seperti parasailing, jet ski, banana boat, fly fish, snorkeling, diving, dan lainnya
+              (opsional
+              / biaya sendiri). Setelah itu, makan siang akan dilakukan di restoran lokal di sekitar Nusa Dua.
+              Setelah
+              makan siang, acara akan dilanjutkan dengan mengunjungi Garuda Wisnu Kencana yang merupakan pusat
+              pengembangan kebudayaan Bali. Selanjutnya, Anda akan diajak mengunjungi Pantai Pandawa yang sangat
+              terkenal. Dari Pantai Pandawa, acara akan dilanjutkan dengan mengunjungi Pura Uluwatu. Setelah itu,
+              Anda
+              akan langsung diajak ke airport untuk penerbangan tujuan berikutnya. Tour selesai
+            </p>
+          </div>
+          <div class="">
+            <img class="img-fluid" src="images/renang1.jpg" width="700px" alt="">
+          </div>
+        </div>
+        <h5 style="margin-top: 20px ;"><i class="fa fa-sticky-note"></i><b> Catatan</b></h5>
+        <p>Karena keterbatasan tempat, kami hanya menampilkan pilihan hotel yang terbatas. Kami siap melayani
+          pemesanan
+          kamar hotel untuk seluruh hotel di Bali. Silakan hubungi kami melalui e-mail, telepon atau WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+  </a>
+
+  <footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md pt-5">
+          <div class="ftco-footer-widget pt-md-5 mb-4">
+            <h2 class="ftco-heading-2">About</h2>
+            <p>Berdiri sejak 19 Juli 1969, CV Mutiara Holiday dipercaya sebagai salah satu travel agent
+              terbesar di Indonesia. Di bawah nama brand Mutiara, kami memiliki lebih dari 90 cabang yang
+              tersebar di kota-kota besar seluruh Indonesia. Setiap tahunnya beberapa penghargaan
+              bergengsi telah berhasil didapatkan oleh Mutiara Holiday.</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+              <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md pt-5 border-left">
+          <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Infromation</h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
+              <li><a href="#" class="py-2 d-block">General Enquiries</a></li>
+              <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+              <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+              <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+              <li><a href="#" class="py-2 d-block">Call Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md pt-5 border-left">
+          <div class="ftco-footer-widget pt-md-5 mb-4">
+            <h2 class="ftco-heading-2">Experience</h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block">Adventure</a></li>
+              <li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
+              <li><a href="#" class="py-2 d-block">Beach</a></li>
+              <li><a href="#" class="py-2 d-block">Nature</a></li>
+              <li><a href="#" class="py-2 d-block">Camping</a></li>
+              <li><a href="#" class="py-2 d-block">Party</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md pt-5 border-left">
+          <div class="ftco-footer-widget pt-md-5 mb-4">
+            <h2 class="ftco-heading-2">Hubungi Kami</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <p>Bali</p>
+                <li><span class="icon fa fa-map-marker"></span><span class="text">Jl. Kembang Matahari
+                    No. 3XX Denpasar, Bali</span></li>
+                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+62 821 3322
+                      6622 / 087 8611 84488</span></a></li>
+                <li><a href="#"><span class="icon fa fa-envelope-o"></span><span class="text">
+                      dewa@mutiaratimurholiday.com</span></a></li>
+              </ul>
+              <ul>
+                <p>Lombok</p>
+                <li><span class="icon fa fa-map-marker"></span><span class="text">Jl. Palapa 1 No. 9
+                    Cakra Barat,
+                    Mataram – Nusa Tenggara Barat</span></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> Mutiara Bali Tours
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#17a2b8" /></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
+  </script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $("#myBtn").click(function (event) {
+      event.preventDefault();
+      // kode Anda di sini
+    });
+
+    function tampilkanModal() {
+      var tanggal = document.getElementById("tanggal").value;
+      var jumlah = document.getElementById("jumlah-pesanan").value;
+      document.getElementById("tanggal_modal").value = tanggal;
+      document.getElementById("jumlah_modal").value = jumlah;
+
+      var modal = document.getElementById("modalPemesanan");
+      modal.style.display = "block";
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      var modal = document.getElementById("modalPemesanan");
+      modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+      var modal = document.getElementById("modalPemesanan");
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
